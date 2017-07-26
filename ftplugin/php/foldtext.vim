@@ -17,7 +17,7 @@ endif
 setlocal foldtext=GetPhpFoldText()
 
 if !exists('b:phpfold_text_right_lines')
-    let b:phpfold_text_right_lines = 0
+    let b:phpfold_text_right_lines = 1
 endif
 
 if !exists('b:phpfold_text_percent')

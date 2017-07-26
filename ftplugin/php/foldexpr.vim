@@ -24,7 +24,7 @@ if !exists('b:phpfold_use')
     let b:phpfold_use = 1
 endif
 if !exists('b:phpfold_group_iftry')
-    let b:phpfold_group_iftry = 0
+    let b:phpfold_group_iftry = 1
 endif
 if !exists('b:phpfold_group_args')
     let b:phpfold_group_args = 1
