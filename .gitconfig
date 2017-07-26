@@ -1,0 +1,8 @@
+[remote "swekaj"]
+    url = git@github.com:swekaj/php-foldexpr.vim.git
+    fetch = +refs/heads/*:refs/remotes/swekaj/*
+[push]
+    remote = origin
+[gsync]
+    remote = swekaj
+    branch = master
