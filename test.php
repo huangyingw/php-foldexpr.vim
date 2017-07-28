@@ -1,7 +1,9 @@
 <?php
 
-class service {
-    public function multiget($product_ids) {
+class service
+{
+    public function multiget($product_ids)
+    {
         if (empty($product_ids)) {
             return [];
         }
